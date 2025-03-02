@@ -13,7 +13,7 @@ function PersonalStafs() {
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
         whileHover={"whileHover"}
-        href="#"
+        href="#welcome"
         className="  text-muted-foreground"
       >
         diyetmed@gmail.com
@@ -24,8 +24,9 @@ function PersonalStafs() {
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
         whileHover={"whileHover"}
-        href="https://nextjs-portfolio-livid-rho.vercel.app/"
-        className=" text-muted-foreground"
+        href="https://wa.me/message/UUFAYY7J3GWUJ1"
+        className=" text-muted-foreground "
+        target="_blank"
       >
         +90 546 935 9788
       </motion.a>

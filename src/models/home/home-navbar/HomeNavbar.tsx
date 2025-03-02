@@ -7,7 +7,7 @@ const navLinks = [
   { name: "Biliyor musunuz?", href: "#biliyor-musunuz" },
   { name: "Sık Sorulan Sorular", href: "/sss" },
   { name: "Blog", href: "/" },
-  { name: "İletişim", href: "/" },
+  { name: "İletişim", href: "#iletisim" },
 ];
 
 export const HomeNavbar = () => {

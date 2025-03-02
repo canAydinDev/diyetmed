@@ -8,7 +8,7 @@ import PersonelLogo from "./PersonelLogo";
 
 function FooterPage() {
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col " id="iletisim">
       <div className="flex flex-col md:flex-row justify-between items-center my-8 mx-4 md:mx-16 mt-12 gap-4">
         <PersonalStafs />
         <div>
