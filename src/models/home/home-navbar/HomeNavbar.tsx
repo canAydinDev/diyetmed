@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const navLinks = [
-  { name: "Hakkımda", href: "#welcome" },
+  { name: "Hakkımda", href: "/hakkimda" },
 
   { name: "Cihazlarımız ve Paketler", href: "#cihazlar" },
   { name: "Biliyor musunuz?", href: "#biliyor-musunuz" },
-  { name: "Sık Sorulan Sorular", href: "/" },
+  { name: "Sık Sorulan Sorular", href: "/sss" },
   { name: "Blog", href: "/" },
   { name: "İletişim", href: "/" },
 ];

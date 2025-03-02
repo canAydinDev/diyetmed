@@ -9,19 +9,19 @@ import Link from "next/link";
 
 const Welcome = () => {
   return (
-    <section id="welcome" className="relative  w-full min-h-screen flex   ">
+    <section id="welcome" className="relative  w-full min-h-screen flex  ">
       <div className="absolute inset-0 -z-10 h-4/5 sm:h-full w-full  ">
         <Image
           src="/images/Header+3-01.png"
           alt="Header 3-01"
           fill
-          className="object-cover"
+          className="object-cover "
           style={{ objectPosition: "center" }}
         />
       </div>
 
-      <div className="relative grid grid-cols-12 mt-20  h-[700px] sm:h-full md:mx-40 ">
-        <div className="  col-span-12 ml-10  min-w-[16rem] md:min-w-1/2   flex relative  ">
+      <div className="relative grid grid-cols-12 mt-20    sm:h-full md:mx-40   ">
+        <div className="  col-span-12 ml-10   min-w-[20rem]  md:min-w-1/2   flex relative ">
           <div className="">
             <Image
               src="/images/foto-2.jpg"
@@ -31,15 +31,24 @@ const Welcome = () => {
             />
           </div>
           <div></div>
-          <div className=" bg-white  space-y-3 md:space-y-6 p-4 md:p-12 min-w-[210px]  md:min-w-[350px] lg:w-3/4 xl:w-2/3 h-[240px] md:min-h-[500px] lg:min-h-[350px] justify-between items-center  text-sm leading-6 md:text-lg -ml-[2.5rem] mt-20 mr-5 md:mt-80">
+          <div className=" bg-white  space-y-3 md:space-y-6 p-4 md:p-8   md:min-w-[350px] lg:w-4/5 xl:w-2/3 h-[350px] md:min-h-[500px] lg:min-h-[390px] justify-between items-center  text-sm leading-6 md:text-lg -ml-[2.5rem] mt-20 mr-5 md:mt-80 ">
             <motion.h2
               variants={fadeIn("left", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="  text-sm md:text-2xl "
+              className="  text-sm md:text-2xl hidden sm:block"
             >
-              Hey! Ben Cansu.
+              Merhaba! Ben Uzman Diyetisyen Cansu Arslanbaş.
+            </motion.h2>
+            <motion.h2
+              variants={fadeIn("left", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="  text-sm md:text-2xl sm:hidden"
+            >
+              Merhaba! Ben Uzman Diyetisyen Cansu Arslanbaş.
             </motion.h2>
 
             <motion.p
@@ -47,21 +56,37 @@ const Welcome = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="  text-xs  leading-6 md:text-xl font-light"
+              className="  text-xs  leading-6 md:text-lg font-light hidden sm:block"
             >
-              Kronik diyet yapma, yeme bozuklukları ve beden algısı ile ilgili
-              zorluklar yaşayan kadın ve erkeklerin yiyeceklerle ve bedenleriyle
-              barışmalarına yardımcı oluyorum.
+              Beslenme ve diyetetik alanında doktora eğitimime devam ediyor,
+              bilimsel bilgiyi klinik deneyim ile birleştirerek bireysel
+              beslenme danışmanlığı sunuyorum. Sağlıklı yaşam yolculuğunuzda
+              sürdürülebilir beslenme planları, kişiye özel diyetler ile
+              yanınızdayım. Diyetmed ile doğru adımları atarak yaşam kalitenizi
+              artırabilir, kendinizi daha sağlıklı ve enerjik hissedebilirsiniz!
             </motion.p>
-            <div className="md:mt-10  md:py-5">
+            <motion.p
+              variants={fadeIn("left", 0.5)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="  text-xs  leading-6 md:text-lg font-light sm:hidden"
+            >
+              Beslenme ve diyetetik alanında doktora eğitimime devam ediyor,
+              bilimsel bilgiyi klinik deneyim ile birleştirerek bireysel
+              beslenme danışmanlığı sunuyorum.Diyetmed ile doğru adımları atarak
+              yaşam kalitenizi artırabilir, kendinizi daha sağlıklı ve enerjik
+              hissedebilirsiniz!
+            </motion.p>
+            <div className=" md:py-5">
               <Button variant="my_green" className="uppercase animate-bounce  ">
-                <Link href="#cihazlar">Nasil mi? &gt;&gt;</Link>
+                <Link href="#nasilmi">Nasil mi? &gt;&gt;</Link>
               </Button>
             </div>
           </div>
         </div>
 
-        <div className=" mt-10 col-span-12 text-center justify-center items-center  ">
+        <div className=" mt-10 col-span-12 text-center justify-center items-center bg-[#e8f1e7] md:bg-opacity-0   ">
           <div className="  mb-10 sm:mx-10 md:mx-28 lg:mx-56  space-y-10 ">
             <motion.h3
               variants={fadeIn("left", 0.3)}

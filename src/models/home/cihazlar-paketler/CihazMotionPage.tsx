@@ -23,7 +23,7 @@ function CihazMotionPage() {
           className="uppercase animate-bounce  "
           size="lg"
         >
-          <Link href="/cihazlar">Paketler</Link>
+          <Link href="/paketler">Paketler</Link>
         </Button>
       </div>
     </section>
