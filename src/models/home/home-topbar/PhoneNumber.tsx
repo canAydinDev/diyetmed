@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export const PhoneNumber = () => {
   return (
-    <div className="flex hover:cursor-pointer animate-pulse">
+    <div className="flex hover:cursor-pointer animate-pulse  ">
       <Link
         target="_blank"
         href="https://wa.me/message/UUFAYY7J3GWUJ1"

@@ -9,6 +9,7 @@ const Page = () => {
     <main className="scroll-smooth">
       <HomeNavbar />
       <Welcome />
+
       <NasilmiPage />
       <CihazMotionPage />
       <DidYouKnowPage />
