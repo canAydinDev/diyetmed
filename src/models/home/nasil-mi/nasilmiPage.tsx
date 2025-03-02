@@ -2,9 +2,12 @@ import React from "react";
 
 const NasilmiPage = () => {
   return (
-    <section id="nasilmi" className="mt-10 md:mt-0">
-      <div className="grid grid-cols-12 mx-4 md:ml-8 md:mt-16 justify-center items-center md:w-full">
-        <div className="col-span-12 md:col-span-4">
+    <section
+      id="nasilmi"
+      className="mt-10 md:mt-0 flex justify-center items-center mx-auto "
+    >
+      <div className="grid grid-cols-12 md:mt-16 justify-center items-center md:w-full ">
+        <div className="col-span-12 md:col-span-4 grid justify-center">
           <iframe
             width="460"
             height="350"

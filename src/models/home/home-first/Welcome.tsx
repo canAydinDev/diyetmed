@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Welcome = () => {
   return (
-    <section id="welcome" className="relative  w-full min-h-screen flex  ">
+    <section id="welcome" className="relative  w-full min-h-screen flex   ">
       <div className="absolute inset-0 -z-10 h-4/5 sm:h-full w-full  ">
         <Image
           src="/images/Header+3-01.png"
@@ -30,29 +30,20 @@ const Welcome = () => {
               height={1000}
             />
           </div>
-          <div></div>
-          <div className=" bg-white  space-y-3 md:space-y-6 p-4 md:p-8   md:min-w-[350px] lg:w-4/5 xl:w-2/3 h-[350px] md:min-h-[500px] lg:min-h-[390px] justify-between items-center  text-sm leading-6 md:text-lg -ml-[2.5rem] mt-20 mr-5 md:mt-80 ">
+
+          <div className="overflow-hidden bg-white  space-y-3 md:space-y-6 p-4 lg:h-[60px] md:p-4   md:min-w-[350px] lg:w-5/6 xl:w-2/3 h-[300px]   md:min-h-[390px] justify-between items-center  text-sm leading-6 md:text-lg -ml-[2.5rem] mt-20 md:mt-80 ">
             <motion.h2
-              variants={fadeIn("left", 0.3)}
+              variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="  text-sm md:text-2xl hidden sm:block"
-            >
-              Merhaba! Ben Uzman Diyetisyen Cansu Arslanbaş.
-            </motion.h2>
-            <motion.h2
-              variants={fadeIn("left", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="  text-sm md:text-2xl sm:hidden"
+              className="  text-sm md:text-2xl "
             >
               Merhaba! Ben Uzman Diyetisyen Cansu Arslanbaş.
             </motion.h2>
 
             <motion.p
-              variants={fadeIn("left", 0.5)}
+              variants={fadeIn("right", 0.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -66,7 +57,7 @@ const Welcome = () => {
               artırabilir, kendinizi daha sağlıklı ve enerjik hissedebilirsiniz!
             </motion.p>
             <motion.p
-              variants={fadeIn("left", 0.5)}
+              variants={fadeIn("right", 0.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -89,7 +80,7 @@ const Welcome = () => {
         <div className=" mt-10 col-span-12 text-center justify-center items-center bg-[#e8f1e7] md:bg-opacity-0   ">
           <div className="  mb-10 sm:mx-10 md:mx-28 lg:mx-56  space-y-10 ">
             <motion.h3
-              variants={fadeIn("left", 0.3)}
+              variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -99,7 +90,7 @@ const Welcome = () => {
               yorucu olabilir.
             </motion.h3>
             <motion.p
-              variants={fadeIn("left", 0.5)}
+              variants={fadeIn("right", 0.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}

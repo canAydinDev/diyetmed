@@ -5,8 +5,8 @@ import React from "react";
 const HakkimdaPage = () => {
   return (
     <section>
-      <div className="grid grid-cols-12 p-10 m-5">
-        <div className="col-span-12  space-y-4 ">
+      <div className="flex flex-col p-10 m-5">
+        <div className=" space-y-4 ">
           <h2 className="text-xl font-semibold leading-relaxed">
             Uzman Diyetisyen Cansu Arslanbaş;
           </h2>
@@ -51,7 +51,7 @@ const HakkimdaPage = () => {
             etmektedir.
           </p>
         </div>
-        <div className="col-span-12 ">
+        <div className="flex flex-col md:flex-row mt-5 gap-4 md:mt-8 md:mx-5 md:gap-5">
           <div>
             <Image
               src="/images/cv/1.jpg"
