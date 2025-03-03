@@ -6,7 +6,7 @@ const NasilmiPage = () => {
       id="nasilmi"
       className="mt-10 md:mt-0 flex justify-center items-center mx-auto "
     >
-      <div className="grid grid-cols-12 md:mt-16 justify-center items-center md:w-full ">
+      <div className="grid grid-cols-12 md:gap-10 md:mt-16 justify-center items-center md:w-full ">
         <div className="col-span-12 md:col-span-4 grid justify-center">
           <iframe
             width="460"
@@ -18,9 +18,11 @@ const NasilmiPage = () => {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="col-span-12 md:col-span-8 mt-10 md:mt-0 justify-center space-y-4 md:space-y-8 px-5 md:pr-10 text-center md:text-start">
-          <h2 className="text-2xl font-semibold">💚 Diyetmed’le Bir Gün! 💚</h2>
-          <p>
+        <div className="col-span-12 md:col-span-7 mt-10 md:mt-0 justify-center space-y-4 md:space-y-8 px-5 md:pr-10 text-center md:text-start">
+          <h2 className="text-lg md:text-2xl font-semibold">
+            💚 Diyetmed’le Bir Gün! 💚
+          </h2>
+          <p className="text-sm md:text-lg">
             Sağlıklı ve sürdürülebilir kilo kaybı için düzenli beslenme planı ve
             fiziksel aktivite olmazsa olmazdır. Tek başına mucizevi bir besin ya
             da cihaz yoktur. Ancak doğru stratejilerle hedefinize ulaşmak çok
@@ -30,7 +32,7 @@ const NasilmiPage = () => {
             özellikle yoğun tempoda çalışan ve spora zaman ayıramayan bireyler
             için büyük bir avantaj sağlar.
           </p>
-          <p>
+          <p className="text-sm md:text-lg">
             Haftada sadece 3 seans ile bile fiziksel aktivitenin tamamını
             üstlenerek, yağ yakımını hızlandırır, sıkılaşmayı destekler ve
             metabolizmayı canlandırır. Diyet sürecinizin temel taşı, kişiye özel
@@ -39,7 +41,7 @@ const NasilmiPage = () => {
             birleştiğinde çok daha kısa sürede etkili ve tatmin edici sonuçlar
             almanızı sağlar.
           </p>
-          <p>
+          <p className="text-sm md:text-lg">
             🌿 Size düşen tek şey, kişiye özel beslenme programınıza uymak ve
             normalden çok daha hızlı aldığınız sonuçların keyfini çıkarmak! 🎯
             💻 Online diyet hizmetimizden yararlanmak için profilimdeki ve web

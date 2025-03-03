@@ -42,9 +42,9 @@ function CihazMobilHomePage() {
         const { url, name, desc } = cihaz;
 
         return (
-          <SwiperSlide key={i} className="mt-20 h-[350px] ">
-            <div className="grid grid-cols-12 items-center  gap-x-8  px-12 ">
-              <div className="col-span-5 w-full max-w-[300px]  xl:justify-center items-center relative mx-auto  ">
+          <SwiperSlide key={i} className="mt-5 md:mt-20 h-[350px] ">
+            <div className="grid grid-cols-10 items-center  md:gap-x-8 px-4  md:px-12 ">
+              <div className="col-span-4 w-full max-w-[300px]  xl:justify-center items-center relative mx-auto  ">
                 <div className="flex flex-col justify-center text-center items-center ">
                   <div className="text-lg">{name}</div>
                   <div className="">
@@ -59,8 +59,8 @@ function CihazMobilHomePage() {
                 </div>
               </div>
 
-              <div className="col-span-7 justify-center before:w-[1px] xl:before:bg-gray-600 xl:before:absolute xl:before:left-0 xl:before:h-[300px] relative xl:pl-10 ">
-                <div className="xl:text-lg text-center md:text-left">
+              <div className="col-span-6 justify-center before:w-[1px] xl:before:bg-gray-600 xl:before:absolute xl:before:left-0 xl:before:h-[300px] relative xl:pl-10 ">
+                <div className="text-sm xl:text-lg text-center md:text-left">
                   {desc}
                 </div>
               </div>

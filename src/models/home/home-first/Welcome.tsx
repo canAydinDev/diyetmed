@@ -37,7 +37,7 @@ const Welcome = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="  text-sm md:text-2xl "
+              className="  text-sm md:text-lg lg:text-xl "
             >
               Merhaba! Ben Uzman Diyetisyen Cansu Arslanbaş.
             </motion.h2>
@@ -47,7 +47,7 @@ const Welcome = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="  text-xs  leading-6 md:text-lg font-light hidden sm:block"
+              className="  text-xs  leading-6 md:text-sm lg:text-lg font-light hidden sm:block"
             >
               Beslenme ve diyetetik alanında doktora eğitimime devam ediyor,
               bilimsel bilgiyi klinik deneyim ile birleştirerek bireysel
@@ -61,7 +61,7 @@ const Welcome = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="  text-xs  leading-6 md:text-lg font-light sm:hidden"
+              className="  text-xs  leading-4  font-light sm:hidden"
             >
               Beslenme ve diyetetik alanında doktora eğitimime devam ediyor,
               bilimsel bilgiyi klinik deneyim ile birleştirerek bireysel
@@ -69,8 +69,12 @@ const Welcome = () => {
               yaşam kalitenizi artırabilir, kendinizi daha sağlıklı ve enerjik
               hissedebilirsiniz!
             </motion.p>
-            <div className=" md:py-5">
-              <Button variant="my_green" className="uppercase animate-bounce  ">
+            <div className=" md:py-5 ">
+              <Button
+                variant="my_green"
+                className="uppercase animate-bounce  "
+                size="sm"
+              >
                 <Link href="#nasilmi">Nasil mi? &gt;&gt;</Link>
               </Button>
             </div>
@@ -78,13 +82,13 @@ const Welcome = () => {
         </div>
 
         <div className=" mt-10 col-span-12 text-center justify-center items-center bg-[#e8f1e7] md:bg-opacity-0   ">
-          <div className="  mb-10 sm:mx-10 md:mx-28 lg:mx-56  space-y-10 ">
+          <div className="  mb-10 mx-3 md:mx-20 lg:mx-40 space-y-2  md:space-y-10 ">
             <motion.h3
               variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-2xl leading-10 "
+              className="text-md sm:text-lg md:text-2xl leading-10 "
             >
               Vücudunuzun nasıl göründüğüyle sürekli meşgul olmak stresli ve
               yorucu olabilir.
@@ -94,7 +98,7 @@ const Welcome = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="  text-muted-foreground  mx-10 text-lg leading-7 "
+              className="  text-muted-foreground mx-3 md:mx-10 text-sm md:text-lg leading-7 "
             >
               Uzun yıllar boyunca, bedenimle ilgili nasıl hissetmem gerektiği
               başkaları tarafından şekillendirildi. Çoğumuz gibi ben de, “ideal”
