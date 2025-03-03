@@ -5,7 +5,7 @@ import React from "react";
 const HakkimdaPage = () => {
   return (
     <section>
-      <div className="flex flex-col p-10 m-5">
+      <div className="flex flex-col p-3 md:p-10 m-2 md:m-5">
         <div className=" space-y-4 ">
           <h2 className="text-xl font-semibold leading-relaxed">
             Uzman Diyetisyen Cansu Arslanbaş;
