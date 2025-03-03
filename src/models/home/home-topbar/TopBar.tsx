@@ -18,7 +18,7 @@ function TopBar() {
           <PhoneNumber />
         </div>
       </div>
-      <div className="block md:hidden">
+      <div className="block ">
         <header className="fixed bottom-0 left-0 top-auto right-auto z-50 ">
           <nav className="max-w-5xl mx-auto p-4">
             <Link href="https://wa.me/message/UUFAYY7J3GWUJ1" target="_blank">
