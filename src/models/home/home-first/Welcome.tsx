@@ -20,8 +20,8 @@ const Welcome = () => {
         />
       </div>
 
-      <div className="relative grid grid-cols-12 mt-20    sm:h-full md:mx-40   ">
-        <div className="  col-span-12 ml-10   min-w-[20rem]  md:min-w-1/2   flex relative ">
+      <div className="relative grid grid-cols-12 mt-20    sm:h-full sm:mx-5 md:mx-20 lg:mx-40  ">
+        <div className="  col-span-12 ml-10 sm:ml-0   min-w-[20rem]  md:min-w-1/2   flex relative ">
           <div className="">
             <Image
               src="/images/foto-2.jpg"
@@ -31,44 +31,49 @@ const Welcome = () => {
             />
           </div>
 
-          <div className="overflow-hidden bg-white  space-y-3 md:space-y-6 p-4 lg:h-[60px] md:p-4   md:min-w-[350px] lg:w-5/6 xl:w-2/3 h-[300px]   md:min-h-[390px] justify-between items-center  text-sm leading-6 md:text-lg -ml-[2.5rem] mt-20 md:mt-80 ">
-            <motion.h2
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="  text-sm md:text-lg lg:text-xl "
-            >
-              Merhaba! Ben Uzman Diyetisyen Cansu Arslanbaş.
-            </motion.h2>
+          <div className="overflow-hidden bg-white  space-y-3 md:space-y-6 p-4  md:p-4   lg:min-w-[350px] lg:w-5/6 xl:w-2/3 h-[260px] sm:max-h-[180px] md:max-h-[240px]   lg:min-h-[380px] xl:min-h-[510px] 2xl:min-h-[400px] justify-between items-center  text-sm leading-6 md:text-lg -ml-[2.5rem] mt-20 md:mt-30 lg:mt-56 ">
+            <div>
+              <motion.h2
+                variants={fadeIn("right", 0.3)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="  text-sm xl:text-lg lg:text-xl "
+              >
+                Merhaba! Ben Uzman Diyetisyen Cansu Arslanbaş.
+              </motion.h2>
+            </div>
 
-            <motion.p
-              variants={fadeIn("right", 0.5)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="  text-xs  leading-6 md:text-sm lg:text-lg font-light hidden sm:block"
-            >
-              Beslenme ve diyetetik alanında doktora eğitimime devam ediyor,
-              bilimsel bilgiyi klinik deneyim ile birleştirerek bireysel
-              beslenme danışmanlığı sunuyorum. Sağlıklı yaşam yolculuğunuzda
-              sürdürülebilir beslenme planları, kişiye özel diyetler ile
-              yanınızdayım. Diyetmed ile doğru adımları atarak yaşam kalitenizi
-              artırabilir, kendinizi daha sağlıklı ve enerjik hissedebilirsiniz!
-            </motion.p>
-            <motion.p
-              variants={fadeIn("right", 0.5)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="  text-xs  leading-4  font-light sm:hidden"
-            >
-              Beslenme ve diyetetik alanında doktora eğitimime devam ediyor,
-              bilimsel bilgiyi klinik deneyim ile birleştirerek bireysel
-              beslenme danışmanlığı sunuyorum.Diyetmed ile doğru adımları atarak
-              yaşam kalitenizi artırabilir, kendinizi daha sağlıklı ve enerjik
-              hissedebilirsiniz!
-            </motion.p>
+            <div>
+              <motion.p
+                variants={fadeIn("right", 0.5)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="  text-xs  leading-6 md:text-sm xl:text-lg font-light hidden lg:block"
+              >
+                Beslenme ve diyetetik alanında doktora eğitimime devam ediyor,
+                bilimsel bilgiyi klinik deneyim ile birleştirerek bireysel
+                beslenme danışmanlığı sunuyorum. Sağlıklı yaşam yolculuğunuzda
+                sürdürülebilir beslenme planları, kişiye özel diyetler ile
+                yanınızdayım. Diyetmed ile doğru adımları atarak yaşam
+                kalitenizi artırabilir, kendinizi daha sağlıklı ve enerjik
+                hissedebilirsiniz!
+              </motion.p>
+              <motion.p
+                variants={fadeIn("right", 0.5)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="  text-xs  leading-4  font-light lg:hidden"
+              >
+                Beslenme ve diyetetik alanında doktora eğitimime devam ediyor,
+                bilimsel bilgiyi klinik deneyim ile birleştirerek bireysel
+                beslenme danışmanlığı sunuyorum.Diyetmed ile doğru adımları
+                atarak yaşam kalitenizi artırabilir, kendinizi daha sağlıklı ve
+                enerjik hissedebilirsiniz!
+              </motion.p>
+            </div>
             <div className=" md:py-5 ">
               <Button
                 variant="my_green"
