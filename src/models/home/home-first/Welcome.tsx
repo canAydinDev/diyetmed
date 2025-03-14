@@ -31,14 +31,14 @@ const Welcome = () => {
             />
           </div>
 
-          <div className="overflow-hidden bg-white  space-y-3 md:space-y-6 p-4  md:p-4   lg:min-w-[350px] lg:w-5/6 xl:w-2/3 h-[260px] sm:max-h-[180px] md:max-h-[240px]   lg:min-h-[380px] xl:min-h-[510px] 2xl:min-h-[400px] justify-between items-center  text-sm leading-6 md:text-lg -ml-[2.5rem] mt-20 md:mt-30 lg:mt-56 ">
+          <div className="overflow-hidden bg-white  space-y-3 md:space-y-6 pl-4 pt-4  md:p-4   lg:min-w-[350px] lg:w-5/6 xl:w-2/3 h-[300px] sm:max-h-[260px] md:max-h-[280px]   lg:min-h-[380px] xl:min-h-[510px] 2xl:min-h-[400px] flex flex-col justify-between items-start  text-sm leading-6 md:text-lg -ml-[2.5rem] mt-20 md:mt-30 lg:mt-56 ">
             <div>
               <motion.h2
                 variants={fadeIn("right", 0.3)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="  text-sm xl:text-lg lg:text-xl "
+                className="  text-xs sm:text-sm xl:text-lg lg:text-xl "
               >
                 Merhaba! Ben Uzman Diyetisyen Cansu Arslanbaş.
               </motion.h2>
@@ -65,16 +65,17 @@ const Welcome = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="  text-xs  leading-4  font-light lg:hidden"
+                className="  text-xs   leading-4  font-light lg:hidden"
               >
                 Beslenme ve diyetetik alanında doktora eğitimime devam ediyor,
                 bilimsel bilgiyi klinik deneyim ile birleştirerek bireysel
-                beslenme danışmanlığı sunuyorum.Diyetmed ile doğru adımları
-                atarak yaşam kalitenizi artırabilir, kendinizi daha sağlıklı ve
-                enerjik hissedebilirsiniz!
+                beslenme danışmanlığı sunuyorum.
+                <br /> Diyetmed ile doğru adımları atarak yaşam kalitenizi
+                artırabilir, kendinizi daha sağlıklı ve enerjik
+                hissedebilirsiniz!
               </motion.p>
             </div>
-            <div className=" md:py-5 ">
+            <div className=" mx-auto md:py-5 ">
               <Button
                 variant="my_green"
                 className="uppercase animate-bounce  "
