@@ -13,7 +13,6 @@ const NasilmiPage = () => {
             height="350"
             src="https://www.youtube.com/embed/wpz2IlOX2AY"
             title="diyetmed tanitim videosu"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>

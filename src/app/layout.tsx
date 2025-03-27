@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="tr">
       <head>
         {/* 1. Google Tag Manager kodunu HEAD içine ekleyin */}
         <Script
