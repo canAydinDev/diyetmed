@@ -76,13 +76,15 @@ const Welcome = () => {
               </motion.p>
             </div>
             <div className=" mx-auto md:py-5 ">
-              <Button
-                variant="my_green"
-                className="uppercase animate-bounce  "
-                size="sm"
-              >
-                <Link href="#nasilmi">Nasil mi? &gt;&gt;</Link>
-              </Button>
+              <Link href="#nasilmi">
+                <Button
+                  variant="my_green"
+                  className="uppercase animate-bounce"
+                  size="sm"
+                >
+                  Nasil mi? &gt;&gt;
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
