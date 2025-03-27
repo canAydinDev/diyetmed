@@ -31,7 +31,7 @@ const Welcome = () => {
             />
           </div>
 
-          <div className="overflow-hidden bg-white  md:bg-red-300 lg:bg-green-300 sm:bg-blue-300  md:space-y-6 pl-4 pt-4  md:p-4   lg:min-w-[350px] lg:w-5/6 xl:w-2/3 h-[300px] sm:max-h-[260px] md:max-h-[280px]   lg:min-h-[380px] xl:min-h-[510px] 2xl:min-h-[400px] flex flex-col justify-between items-start  text-sm leading-6 md:text-lg -ml-[2.5rem] mt-20 md:mt-30 lg:mt-56 ">
+          <div className="overflow-hidden bg-white  md:space-y-6 pl-4 pt-4  md:p-4   lg:min-w-[350px] lg:w-5/6 xl:w-2/3 h-[300px] sm:max-h-[260px] md:max-h-[280px]   lg:min-h-[380px] xl:min-h-[510px] 2xl:min-h-[400px] flex flex-col justify-between items-start  text-sm leading-6 md:text-lg -ml-[2.5rem] mt-20 md:mt-30 lg:mt-56 ">
             <div>
               <motion.h2
                 variants={fadeIn("right", 0.3)}
