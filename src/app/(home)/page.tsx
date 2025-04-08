@@ -16,7 +16,7 @@ const Page = () => {
       <NasilmiPage />
       <Separator />
       <CihazMotionPage />
-      <Separator />
+
       <DidYouKnowPage />
       <Separator />
     </main>
