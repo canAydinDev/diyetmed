@@ -11,8 +11,10 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Diyetmed",
-  description: "Sağlıklı Yaşam ve Beslenme Danışmanlığı | Mersin",
+  title:
+    "Uzman Diyetisyen | Mersin | Kaçırılmayacak Yaza Hazırlık Çekilişi! | Vacu Activ & Roll Shape",
+  description:
+    "Diyetmed ile Vacu Activ ve Roll Shape cihazlarıyla yaza hazırlan! Çekilişe katıl, sağlıklı dönüşüm yolculuğunu başlat!",
 };
 
 export default function RootLayout({
