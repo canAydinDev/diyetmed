@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 
-// ✅ window.instgrm için tür bildirimi
+// ✅ window.instgrm
 declare global {
   interface Window {
     instgrm?: {
