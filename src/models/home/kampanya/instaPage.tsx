@@ -1,9 +1,21 @@
 "use client";
 import { useEffect } from "react";
 
+// ✅ window.instgrm için tür bildirimi
+declare global {
+  interface Window {
+    instgrm?: {
+      Embeds: {
+        process: () => void;
+      };
+    };
+  }
+}
+
 export default function InstagramEmbed() {
   useEffect(() => {
-    const instgrm = (window as any).instgrm;
+    const instgrm = window.instgrm;
+
     if (instgrm) {
       instgrm.Embeds.process();
     } else {
